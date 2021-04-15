@@ -14,17 +14,17 @@
 <body>
    <header>
       <div class="container">
-         <div class="header-block">
+         <div class="header-block ">
             <div class="header-logo">
                <a href=""><img class="logo-img" src="./img/logo.png" alt=""></a>
             </div>
-            <div class="header-links">
+            <div class="header-links hide">
                <a class="header-link" href="">Our Shop</a>
                <a class="header-link" href="">Blog</a>
                <a class="header-link" href="">Recipes</a>
                <a class="header-link" href="">About Us</a>
             </div>
-            <div class="header-login">
+            <div class="header-login hide">
                <div class="looking-for">
                   <img class="search-icon" src="./icons/search.png" alt="">
                </div>
@@ -34,13 +34,35 @@
          </div>
       </div>
    </header>
+   <section class="place-for-slider">
+      <div class="container">
+         <div class="slider">
+            <div class="slider-item">
+               <div class="photo-slider">
+                  <img class="slider-img" src="./img/slider-img-1.png" alt="">
+               </div>
+            </div>
+            <div class="slider-item">
+               <div class="photo-slider">
+                  <img class="slider-img" src="./img/slider-img-2.png" alt="">
+               </div>
+            </div>
+            <div class="slider-item">
+               <div class="photo-slider">
+                  <img class="slider-img" src="./img/slider-img-3.png" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
    <main>
-      <div class="bg">
-         <div class="container">
-            <div class="left-part">
-               <div class="main-topic">Organic Food Store</div>
-               <div class="main-paragraf">Current delivery lead times are between 5-7 working days</div>
-               <button class="main-btn">Show now</button>
+      <div class="container">
+         <div class="left-main">
+            <div class="main-topic">Organic Food Store</div>
+            <div class="main-paragraf">Current delivery lead times are between 5-7 working days</div>
+            <div class="main-buttons">
+               <button class="main-btn">Show Now</button>
             </div>
          </div>
       </div>
@@ -108,19 +130,25 @@
          <div class="blog-topic">Blog</div>
          <div class="blog-grid">
             <div class="blog-items">
-               <img src="./img/blog-1.png" alt="">
+               <div class="blog-photo">
+                  <img class="blog-img" src="./img/blog-1.png" alt="">
+               </div>
                <div class="topic-items">5 reasons to love organic</div>
                <div class="paragraf-blog">There are many reasons to love organic food and farming. We take a look at why
                   organic is good for you and your family.</div>
             </div>
             <div class="blog-items">
-               <img src="./img/blog-2.png" alt="">
+               <div class="blog-photo">
+                  <img class="blog-img" src="./img/blog-2.png" alt="">
+               </div>
                <div class="topic-items">You’re the Apple for My Pie</div>
                <div class="paragraf-blog">This year, we plan to bake a home-made apple pie, but we need the main
                   ingredient: apples, of course!</div>
             </div>
             <div class="blog-items">
-               <img src="./img/blog-3.png" alt="">
+               <div class="blog-photo">
+                  <img class="blog-img" src="./img/blog-3.png" alt="">
+               </div>
                <div class="topic-items">Best Christmas food gifts for 2020</div>
                <div class="paragraf-blog">From quick bites to comforting teas, Christmas is the right time of the year
                   to spoil your loved ones with food gifts.</div>
@@ -137,15 +165,21 @@
          <div class="recipes-topic">Recipes</div>
          <div class="resipes-grid">
             <div class="resipes-items">
-               <img src="./img/recipes-1.png" alt="">
+               <div class="recipes-photo">
+                  <img class="recipes-img" src="./img/recipes-1.png" alt="">
+               </div>
                <div class="resipes-item-topic">Banana Crunch Pancakes</div>
             </div>
             <div class="resipes-items">
-               <img src="./img/recipes-2.png" alt="">
+               <div class="recipes-photo">
+                  <img class="recipes-img" src="./img/recipes-2.png" alt="">
+               </div>
                <div class="resipes-item-topic">Minty Melon Salad </div>
             </div>
             <div class="resipes-items">
-               <img src="./img/recipes-3.png" alt="">
+               <div class="resipes-photo">
+                  <img class="recipes-img" src="./img/recipes-3.png" alt="">
+               </div>
                <div class="resipes-item-topic">Mexican Casserole</div>
             </div>
          </div>
@@ -159,30 +193,38 @@
       <div class="container">
          <div class="footer-grid">
             <div class="footer-items">
-               <a href="">General</a>
-               <a href="">About Us</a>
-               <a href="">Our Shop</a>
-               <a href="">Recipes</a>
-               <a href="">Blog</a>
+               <div class="links-footer">
+                  <a href="">General</a>
+                  <a href="">About Us</a>
+                  <a href="">Our Shop</a>
+                  <a href="">Recipes</a>
+                  <a href="">Blog</a>
+               </div>
             </div>
             <div class="footer-items">
-               <a href="">Webshop</a>
-               <a href="">Delivery Information</a>
-               <a href="">Returns & Cancellations</a>
+               <div class="links-footer">
+                  <a href="">Webshop</a>
+                  <a href="">Delivery Information</a>
+                  <a href="">Returns & Cancellations</a>
+               </div>
             </div>
             <div class="footer-items">
-               <a href="">Legal</a>
-               <a href="">Terms of Use</a>
-               <a href="">Terms of Purchase</a>
-               <a href="">Privacy Policy</a>
-               <a href="">Modern Slavery Policy</a>
+               <div class="links-footer">
+                  <a href="">Legal</a>
+                  <a href="">Terms of Use</a>
+                  <a href="">Terms of Purchase</a>
+                  <a href="">Privacy Policy</a>
+                  <a href="">Modern Slavery Policy</a>
+               </div>
             </div>
             <div class="footer-items">
-               <a href="">Contact</a>
-               <a href="">Facebook</a>
-               <a href="">Twitter</a>
-               <a href="">Instagram</a>
-               <a href="">Youtube</a>
+               <div class="links-footer">
+                  <a href="">Contact</a>
+                  <a href="">Facebook</a>
+                  <a href="">Twitter</a>
+                  <a href="">Instagram</a>
+                  <a href="">Youtube</a>
+               </div>
             </div>
          </div>
          <div class="text-copyright">© Copyright by DimaWiwat 2021</div>
